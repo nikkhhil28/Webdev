@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .flexbox {
+      display: flex;
+      height: 50px;
+    }
+
+    .fb1 {
+      background-color: lightpink;
+      width: 100px;
+    }
+
+    .fb2 {
+      background-color: lightblue;
+      width: 200px;
+    }
+
+    .row2 {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .p1 {
+      color: white;
+      background-color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="flexbox">
+    <div class="fb1"></div>
+    <div class="fb2">
+      <div class="row1">row1</div>
+      <div class="row2">
+        <div class="p1">row2</div>
+        <div class="p1">row2</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    p {
+      margin: 0;
+      font-family: arial;
+    }
+
+    div {
+      font-family: arial;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      width: 410px;
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+
+    .profile-picture {
+      height: 50px;
+      width: 50px;
+      border-radius: 25px;
+      object-fit: cover;
+    }
+
+    .username {
+      font-weight: bold;
+    }
+
+    .user-id {
+      color: rgb(111, 111, 111);
+    }
+
+    .user-information {
+      margin-bottom: 5px;
+    }
+
+    .profile-container {
+      margin-right: 10px;
+    }
+
+    .tweet {
+      line-height: 20px;
+      margin-bottom: 12px;
+    }
+
+    .url-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      border-color: rgb(200, 200, 200);
+      border-width: 1px;
+      border-radius: 14px;
+      border-style: solid;
+      overflow: hidden;
+    }
+
+    .image-container {
+      width: 100px;
+      height: 100px;
+      background-color: rgb(220, 220, 220);
+    }
+
+    .url-information {
+      flex: 1;
+      padding-left: 10px;
+    }
+
+    .website {
+      color: rgb(111, 111, 111);
+      margin-bottom: 5px;
+    }
+
+    .content {
+      flex: 1;
+    }
+
+    .link-title {
+      line-height: 22px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile-container">
+      <img class="profile-picture" src="cat.jpg">
+    </div>
+    <div class="content">
+      <div class="user-information">
+        <p><span class="username">supersimple.dev </span><span class="user-id">@SuperSimpleDev</span></p>
+      </div>
+      <div class="tweet">What is backend web development? A complete overview. New video is up!</div>
+      <div class="url-container">
+        <div class="image-container"></div>
+        <div class="url-information">
+          <div class="website">youtube.com</div>
+          <div class="link-title">Backend web development - a complete overview (2021)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
