@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      height: 1000px;
+    }
+
+    div {
+      font-family: arial;
+      margin: 0;
+    }
+
+    .side-bar-1 {
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      padding-left: 15px;
+      padding-right: 15px;
+      background-color: rgb(33, 33, 33);
+      top: 0;
+      left: 0;
+      bottom: 0;
+      align-items: center;
+      padding-top: 20px;
+    }
+
+    .profile-image {
+      height: 50px;
+      width: 50px;
+      border-radius: 25px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .side-bar-2 {
+      width: 170px;
+      background-color: rgb(55, 55, 55);
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 80px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 20px;
+    }
+
+    .row1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .title {
+      font-weight: bold;
+      color: white;
+      font-size: 14px;
+    }
+
+    .add {
+      color: rgb(150, 150, 150);
+      font-size: 26px;
+    }
+
+    .row {
+      color: rgb(150, 150, 150);
+      margin-bottom: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="side-bar-1">
+    <img class="profile-image" src="cat.jpg">
+    <img class="profile-image" src="cat2.jpg">
+    <img class="profile-image" src="dog2.jpg">
+  </div>
+  <div class="side-bar-2">
+    <div class="row1">
+      <div class="title">INFO</div>
+      <div class="add">+</div>
+    </div>
+    <div class="row"># new-videos</div>
+    <div class="row"># updates</div>
+    <div class="row"># faq</div>
+  </div>
+</body>
+</html>
