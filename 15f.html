@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      height: 3000px;
+    }
+
+    .product-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .product {
+      object-fit: cover;
+      width: 200px;
+      height: 200px;
+    }
+
+    .discount-tag {
+      position: absolute;
+      top: 6px;
+      right: 0;
+      background-color: black;
+      color: white;
+      font-family: arial;
+      padding-left: 6px;
+      padding-right: 6px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      font-size: 10px;
+    }
+
+    .add-to-cart {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      top: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    button {
+      color: black;
+      background-color: white;
+      border-style: solid;
+      border-color: black;
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-size: 10px;
+      font-family: arial;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="product-container">
+    <img class="product" src="shirt.jpg">
+    <div class="discount-tag">20% OFF</div>
+    <div class="add-to-cart">
+      <button>Add to Cart</button>
+    </div>
+  </div>
+</body>
+</html>
